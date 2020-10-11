@@ -1,5 +1,5 @@
 FROM node:12-alpine
-WORKDIR /app
+WORKDIR /practice-app
 COPY . .
 RUN yarn install --production
 cmd ["node", "src/index.js"]
